@@ -7,7 +7,7 @@ This is an improvement from my old repo: Adv_DS_Captstone_Project. Here, I have 
 Steps to run streamlit app in local host:
 1. Download or git pull the code base.
 2. Check requirements.txt for any further installations.
-3. Get a copy of model from https://drive.google.com/file/d/1eCeZP1Wjl5rRMmqzzsMNk3XAoJN8u39w/view?usp=sharing.
+3. Get a copy of model from https://drive.google.com/file/d/1eCeZP1Wjl5rRMmqzzsMNk3XAoJN8u39w/view?usp=sharing and place it in "saved_models" folder.
 4. Type the following command in terminal:
             streamlit run FaceMask/streamlit_main.py
 5. You will see the link for access in terminal once successful.
