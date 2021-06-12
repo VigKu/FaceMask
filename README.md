@@ -11,3 +11,13 @@ Steps to run streamlit app in local host:
 4. Type the following command in terminal:
             streamlit run FaceMask/streamlit_main.py
 5. You will see the link for access in terminal once successful.
+
+
+Note: The model is not perfect as this is an experiment for streamlit purposes.
+
+Possible steps for further improvement:
+1. Data augmentation using albeumentaions (requires augmenting bounding boxes).
+2. Re-sample the data set to have balanced dataset.
+3. Hyper parameter optmization.
+4. Check if Non Max Suppresion (NMS) is required for post processing.
+5. Choice of other models such as Mobilenet, EfficientDet and etc.
