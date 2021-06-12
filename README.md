@@ -21,3 +21,4 @@ Possible steps for further improvement:
 3. Hyper parameter optmization.
 4. Check if Non Max Suppresion (NMS) is required for post processing.
 5. Choice of other models such as Mobilenet, EfficientDet and etc.
+6. Choice of other algorithms such as Yolo (planning to work on this).
