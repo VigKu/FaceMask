@@ -17,8 +17,9 @@ Note: The model is not perfect as this is an experiment for streamlit purposes.
 
 Possible steps for further improvement:
 1. Data augmentation using albeumentaions (requires augmenting bounding boxes).
-2. Re-sample the data set to have balanced dataset.
-3. Hyper parameter optmization.
-4. Check if Non Max Suppresion (NMS) is required for post processing.
-5. Choice of other models such as Mobilenet, EfficientDet and etc.
-6. Choice of other algorithms such as Yolo (planning to work on this).
+2. Hyper parameter optmization.
+3. Check if Non Max Suppresion (NMS) is required for post processing.
+4. Choice of other models/algorithms such as Mobilenet, EfficientDet, Yolo and etc.
+5. Things to ponder about:
+            i. Re-sample the data set to have balanced dataset? but it is hard to do so as one image can contain multiple classes.
+           ii. Use Focal loss? https://towardsdatascience.com/4-ways-to-improve-class-imbalance-for-image-data-9adec8f390f1 
